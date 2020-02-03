@@ -1,2 +1,2 @@
-# OptimalTrasport
-Code snippets used in generating diagrams for my master's project.
+# Optimal Transport Project
+Code snippets used in generating diagrams for my maths master's project.
