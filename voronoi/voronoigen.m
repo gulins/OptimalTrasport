@@ -48,8 +48,8 @@ for i=1:length(y)
            
             % DISTANCE
             p=2;
-            dist=(((abs(y(i)-fy))^2+(abs(x(j)-fx))^2)^(p/2))-w;
-            dist=(((abs(y(i)-fy))^p+(abs(x(j)-fx))^p)^(1/p))-w;
+            dist=(((abs(y(i)-fy))^2+(abs(x(j)-fx))^2)^(p/2))-w; % Euclidean distance ^ p
+            % dist=(((abs(y(i)-fy))^p+(abs(x(j)-fx))^p)^(1/p))-w; % the Lp-norm.
             
             if (dist<mindist)
                 mindist=dist;
