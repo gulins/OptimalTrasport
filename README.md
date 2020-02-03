@@ -1,7 +1,5 @@
-# Optimal Transport Project
-Code snippets used in generating diagrams for my maths master's project.
+# Voronoi Diagram Generator
 
-## voronoi/voronoigen.m
 Voronoi Diagram generator with variable number of sites, weights of each site and location of each site. By changing the distance function, one can create different partitionings of the plane. For example, a typical Voronoi diagram with Euclidean distance is
 
 ![Euclidean distance](voronoi/p2.png)
